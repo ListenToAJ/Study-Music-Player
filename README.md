@@ -10,7 +10,7 @@ I wanted to save some of my favorite study music locally, as well as create a hu
 
 ### Dependencies
 
-* Within the included python env directory, is the pypdf library.  That is all thats needed.
+* Having the mp3s loaded is important.
 
 ### Installing
   
