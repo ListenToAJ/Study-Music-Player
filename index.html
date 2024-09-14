@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hello World</title>
+    <!-- Link to the external CSS file -->
+    <link rel="stylesheet" href="style.css">
+    <!-- Google icon stylesheet -->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,600,0,200" />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+
+</head>
+<body>
+    <audio loop id="khAudio" src="audio/Kingdom Hearts.mp3" type="audio/mp3"></audio>    
+    <audio loop id="wiiAudio" src="audio/wii.mp3" type="audio/mp3"></audio>  
+    <audio loop id="lofiAudio" src="audio/Lofi.mp3" type="audio/mp3"></audio>  
+    <audio loop id="destinyAudio" src="audio/Destiny.mp3" type="audio/mp3"></audio>  
+
+    <table id="container">
+        <tr class="row">
+            <td>
+                <div class="radio" id="radio0">
+                    <img class="icon playpause" src="img/playHD.png" id="playpause0" tabindex="1">
+                    <img class="icon shuffle" src="img/shuffleHD.png" id="shuffle0" tabindex="2">
+                    <div class="title">Kingdom Hearts Music</div>
+                </div>
+            </td>
+        </tr>
+        <tr class="row">
+            <td>
+                <div class="radio" id="radio1">
+                    <img class="icon playpause" src="img/playHD.png" id="playpause1" tabindex="3">
+                    <img class="icon shuffle" src="img/shuffleHD.png" id="shuffle1" tabindex="4">
+                    <div class="title">Wii Sports Music</div>
+                </div>
+            </td>
+        </tr>
+        <tr class="row">
+            <td>
+                <div class="radio" id="radio2">
+                    <img class="icon playpause" src="img/playHD.png" id="playpause2" tabindex="5">
+                    <img class="icon shuffle" src="img/shuffleHD.png" id="shuffle2" tabindex="6">
+                    <div class="title">Relaxing Lofi Beats</div>
+                </div>
+            </td>
+        </tr>
+        <tr class="row">
+            <td>
+                <div class="radio" id="radio3">
+                    <img class="icon playpause" src="img/playHD.png" id="playpause3" tabindex="7">
+                    <img class="icon shuffle" src="img/shuffleHD.png" id="shuffle3" tabindex="8">
+                    <div class="title">Destiny Tracks</div>
+                </div>
+            </td>
+        </tr>
+    </table>
+
+    <!-- Link to the external JavaScript file -->
+    <script src="script.js"></script>
+</body>
+</html>
+
