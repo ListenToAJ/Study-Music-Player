@@ -75,7 +75,7 @@ $(document).ready(function(){
 
     $(".icon:not(.playpause)").on("click keypress", function(){
         $(this).animate({height: '85px'}, 50, function(){
-            $(this).animate({height: '100px'}, 50);
+            $(this).animate({height: '10vh'}, 50);
         });
     });
 
