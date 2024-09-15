@@ -42,8 +42,8 @@ Copyright 2024 Anthony Simao
 ## Acknowledgments
 
 * [README-Template](https://gist.github.com/DomPizzie/7a5ff55ffa9081f2de27c315f5018afc)
-* [Kingdom Hearts Track](https://www.youtube.com/watch?v=e7IdlPz5qL4&t=3720s)
-* [Wii Track](https://www.youtube.com/watch?v=frIxIZyko80)
-* [Lofi Hip Hop Track](https://www.youtube.com/watch?v=T7GvvbD6S2Y)
-* [Destiny Track](https://youtu.be/v1w9XABjkLE?si=RRwTaEtKf5g1N9fk)
-* [Destiny Track](https://www.youtube.com/watch?v=RuZyYAtNIoI)
+* [Kingdom Hearts Track](https://youtu.be/e7IdlPz5qL4?si=dGte8bHwdizrdz48)
+* [Wii Track](https://youtu.be/frIxIZyko80?si=gjZ4Jt2_3zT3XO57)
+* [Lofi Hip Hop Track](https://youtu.be/T7GvvbD6S2Y?si=d_Q-mz8OtNbhMKlk)
+* [Pokemon Track](https://youtu.be/v1w9XABjkLE?si=RRwTaEtKf5g1N9fk)
+* [Destiny Track](https://youtu.be/RuZyYAtNIoI?si=D5syEweEyu3IGduU)
