@@ -7,6 +7,10 @@ body{
   background: rgb(11,10,28);
 }
 
+::-webkit-scrollbar {
+  display: none;
+}
+
 .radio{
   /* background: purple; */
   width: 100vw;
@@ -52,8 +56,12 @@ body{
 }
 
 #radio3{
-  background-image: linear-gradient(-90deg, rgba(28, 255, 194, 0.65),rgba(188, 45, 255, 0.65)), url(img/destiny2.png);
+  background-image: linear-gradient(-90deg, rgba(115,102,255, 0.65),rgba(186, 216, 10, 0.65)), url(img/pokemon.png);
 }
+
+#radio4{
+  background-image: linear-gradient(-90deg, rgba(28, 255, 194, 0.65),rgba(188, 45, 255, 0.65)), url(img/destiny2.png);
+} 
 
 #container{
     position: absolute;

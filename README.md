@@ -16,23 +16,28 @@ I wanted to save some of my favorite study music locally, as well as create a hu
   
 * Best advice I could give you would be to clone this and then simply open the index.html file locally, I am looking into web hosting for the future.
 
-### Executing program
+### How to use
 
 * Click the play button on whichever track you want.
+* Shuffle button will shuffle which track is clicked and play it.
+* Clicking title of track will restart the track clicked.
 
 ## Authors
 
 ListenToAJ :key:
 
-
 ## Version History
 
 * 0.1
     * Initial Release
+* 0.2
+    * Added new Pokemon track
+    * Added feature to reset track time by clicking title
+    * Changed CSS to allow extra tracks to be added
 
 ## License
 
-This isn't liscened, come on man it's like 14 lines of code.
+Copyright 2024 Anthony Simao
 
 ## Acknowledgments
 
@@ -40,4 +45,5 @@ This isn't liscened, come on man it's like 14 lines of code.
 * [Kingdom Hearts Track](https://www.youtube.com/watch?v=e7IdlPz5qL4&t=3720s)
 * [Wii Track](https://www.youtube.com/watch?v=frIxIZyko80)
 * [Lofi Hip Hop Track](https://www.youtube.com/watch?v=T7GvvbD6S2Y)
+* [Destiny Track](https://youtu.be/v1w9XABjkLE?si=RRwTaEtKf5g1N9fk)
 * [Destiny Track](https://www.youtube.com/watch?v=RuZyYAtNIoI)

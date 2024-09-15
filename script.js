@@ -1,7 +1,7 @@
 $(document).ready(function(){
     //~ Variables:
 
-    let tracks = [$('#khAudio')[0], $('#wiiAudio')[0], $('#lofiAudio')[0], $('#destinyAudio')[0]]
+    let tracks = [$('#khAudio')[0], $('#wiiAudio')[0], $('#lofiAudio')[0], $('#pokemonAudio')[0], $('#destinyAudio')[0] ]
 
     let playing = [false, null]
     let animationDelay = 50;
@@ -66,19 +66,35 @@ $(document).ready(function(){
                 $(this).css("background-image", " linear-gradient(-90deg, rgba(254, 1, 55, 0.65)" + leftGdr + ", rgba(57, 0, 255, 0.65)" + rightGdr + "), url(img/lofi.png)");
             break;
             case 3:
+                $(this).css("background-image", " linear-gradient(-90deg, rgba(115,102,255, 0.65)" + leftGdr + ",rgba(186, 216, 10, 0.65)" + rightGdr + "), url(img/pokemon.png)");
+            break;
+            case 4:
                 $(this).css("background-image", " linear-gradient(-90deg, rgba(28, 255, 194, 0.65)" + leftGdr + ",rgba(188, 45, 255, 0.65)" + rightGdr + "), url(img/destiny2.png)");
-                break;
+            break;
         }
     });
 
     //~ Button presses:
 
+    //* Changing sizes of icons on click (excluding play/pause)
     $(".icon:not(.playpause)").on("click keypress", function(){
-        $(this).animate({height: '85px'}, 50, function(){
+        $(this).animate({height: '8.5vh'}, 50, function(){
             $(this).animate({height: '10vh'}, 50);
         });
     });
 
+    //* Clicking on title of track changes size and resets time of track
+    $(".title").on("click keypress", function(){
+        $(this).animate({"font-size": '3.825vw'}, 50, function(){
+            $(this).animate({"font-size": '4.5vw'}, 50);
+        });
+
+        let trackClicked = Number($(this).attr('id').slice(-1));
+        
+        tracks[trackClicked].currentTime = 0;
+    });
+
+    //* Clicking on play/pause or shuffle
     $(".icon").on("click keypress", function(){
         let trackClicked = Number($(this).attr('id').slice(-1));
         let changeButton = $(this);
