@@ -12,18 +12,22 @@ body{
 }
 
 .radio{
-  /* background: purple; */
-  width: 100vw;
+  /*background: purple;
+  */width: 100vw;
   height: 25vh;
   box-sizing: border-box;
   --angle: 0deg;
-  border-image: linear-gradient(var(--angle), green, yellow) 1;
-  border: .75vmin solid;  
+  /*border-image: linear-gradient(var(--angle), green, yellow) 1;*/
+  border-top: .75vmin solid;
+  border-bottom: .75vmin solid;
+  border-left:  1.5vmin solid;
+  border-right: 1.5vmin solid;
   animation: 10s rotate linear infinite;
   position: relative;
   background-position: left;
   background-size: cover;
   background-repeat: no-repeat;
+  -webkit-animation: 10s rotate linear infinite;
 }
 
 @keyframes rotate {
