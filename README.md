@@ -24,7 +24,7 @@ I wanted to save some of my favorite study music locally, as well as create a hu
 
 ## Authors
 
-ListenToAJ :key:
+:key: ListenToAJ
 
 ## Version History
 
