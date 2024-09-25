@@ -6,6 +6,8 @@ This web application for desktops has multiple audio files that can be used to s
 
 I wanted to save some of my favorite study music locally, as well as create a hub for it so that I can easily access my favorite tracks as well as not worry about them being taken down.
 
+![Screenshot](img/screenshot.png)
+
 ## Getting Started
 
 ### Dependencies
